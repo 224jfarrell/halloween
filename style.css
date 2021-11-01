@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(115, 115, 115);
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255, 127, 0);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  border: 2px solid black;
+  border-radius: 3px;
+}
+
+h2 {
+  color: rgb(255, 89, 0);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  border-radius: 2px;
+  border-color: black;
+}
+
+#bruh {
+  color: black;
+  border-radius: 10px;
+}
+
+.bruh {
+  color: orange;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#yo {
+  animation-name: "yo";
+  animation-duration: 10s;
+}
+
+@keyframes yo {
+  0% {top: 500px; left: 0px};
+  100% {top: 500px; left: 1000px;}
+}
+
+.secret {
+  font-size: 6px;
+  color: rgb(100,100,100);
+  text-decoration: none;
+}
+
+img {
+  width: 500px;
+  height: 1000px;
+  border-radius: 5px;
+}
+
+#swag {
+  color: black;
+  border-radius: 10px;
+}
+
+ol {
+  text-align: left;
+  color: orange;
+  text-shadow: 2px 2px black;
+}
+
+table {
+  width:100%;
+  font-family: cursive;
+}
+
+td, th {
+  border: 2px solid #000;
+}
+
+.bro{
+  color: black;
+}
